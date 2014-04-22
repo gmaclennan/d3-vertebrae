@@ -12,7 +12,7 @@ Collections are implemented as subclassed arrays, which can be fed directly to [
 
 Rather than Backbone style `Backbone.Model.extend({ method: function, method: function })` you extend d3v models:
 
-```
+```javascript
 d3v.Model.extend()
     .initialize(*initializeFuntion*)
     .sync(*customSyncFunction*)
@@ -27,7 +27,7 @@ In general the use of {options} objects is completely removed, preferring a more
 
 For now I don't plan to add views, instead implementing views with d3 with the module pattern, as opposed to the classical objects used for models and collections. A typical pattern would be:
 
-```
+```javascript
 MyView = function() {
     // Initialize...
     return function(selection) {
