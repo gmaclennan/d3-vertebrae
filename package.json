@@ -1,0 +1,23 @@
+{
+  "name"          : "d3-vertibrae",
+  "description"   : "A few basic building blocks for making an app with d3",
+  "url"           : "http://github.com/gmaclennan/d3-vertibrae",
+  "keywords"      : ["model", "view", "controller", "router", "server", "client", "browser"],
+  "author"        : "Gregor MacLennan <gmaclennan@digital-democracy.org>",
+  "dependencies"  : {
+    "lodash-node" : "~2.4.1",
+    "d3"          : "~3.4.5",
+    "escape-html" : "~1.0.1",
+    "extend"      : "~1.2.1"
+  },
+  "devDependencies": {
+    "docco": "0.6.1"
+  },
+  "main"          : "index.js",
+  "version"       : "0.0.0",
+  "license"       : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmaclennan/d3-vertibrae.git"
+  }
+}
