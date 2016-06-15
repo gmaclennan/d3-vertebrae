@@ -1,4 +1,6 @@
-**This is under development, many things do not work and many things will change**
+**ABANDONED**
+
+This was just an idea / experiment. Not going to be doing any more work on this.
 
 #d3-vertebrae
 
